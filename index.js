@@ -26,7 +26,7 @@ app.use(function(req, res, next) {
 });
 
 //Connecting to the MongoDB database 'StudentDB' running on 27017
-mongoose.connect('mongodb://miracle:miracle1@ds261917.mlab.com:61917/demo', { useNewUrlParser: true });
+mongoose.connect('mongodb://demo:demo123@ds211259.mlab.com:11259/crud_demo', { useNewUrlParser: true });
 
 
 //serving insert html page
